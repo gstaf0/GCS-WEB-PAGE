@@ -1,2 +1,6 @@
-# GCS-WEB-PAGE
-Interface Web com uma documentação introdutória sobre Gestão de Configuração de Sistemas
+## Gohub, a theme by ThemeWagon team.
+
+---
+
+Get the design file here:
+[https://www.uistore.design/items/gohub-landing-page/]
