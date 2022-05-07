@@ -1,5 +1,5 @@
 {
-  "name": "gohub",
+  "name": "gcs-web-page",
   "version": "1.0.0",
   "description": "A bootstrap 5 theme",
   "main": "gulpfile.js",
@@ -14,7 +14,7 @@
     "localhost": "ssh -R 80:localhost:3000 ssh.localhost.run"
   },
   "keywords": [],
-  "author": "",
+  "author": "Guilherme Staffa",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.14.3",
@@ -74,5 +74,13 @@
   },
   "browserslist": [
     "last 5 version"
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gstaf0/GCS-WEB-PAGE.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gstaf0/GCS-WEB-PAGE/issues"
+  },
+  "homepage": "https://github.com/gstaf0/GCS-WEB-PAGE#readme"
 }
