@@ -3,75 +3,75 @@ append variables
     var featuresnew= [
       {
         icon:`4.png`,
-        title:'High Conversions',
+        title:'Trello',
         alt: 'Dashboard',
-        details: 'Convert more wesite visitors in signups ans purchases.'
+        details: 'Gestão de atividades estilo Kanbam.'
       },
       {
         icon:`5.png`,
-        title:'Save on Acquisition',
+        title:'GitHub',
         alt: 'Comment',
-        details: 'Your advertising spend will go further than ever before.'
+        details: 'Repositório público de armazenamemto.'
       },
       {
         icon:`6.png`,
-        title:'Increase Trust',
+        title:'Git',
         alt: 'Tailored',
-        details: 'People trust companies they see other people buy.'
+        details: 'Ferramenta de versionamento de códigos e/ou descrições.'
       },
       {
         icon:`7.png`,
-        title:'Social Influence',
+        title:'Gulp',
         alt: 'Dashboard',
-        details: 'Seeing other visitor taking action creates fear of missing out.'
+        details: 'Aplicação que permite a visualização em tempo real do HTML.'
       },
       {
         icon:`8.png`,
-        title:'Activity Notifications',
+        title:'Node.js',
         alt: 'Dashboard',
-        details: 'Display recent sales and opt-ins on your pages and drive visitors.'
+        details: 'Aplicação base de uma página HTML.'
       },
       {
         icon:`9.png`,
-        title:'Custom Journeys',
+        title:'Browsing Sync',
         alt: 'Dashboard',
-        details: 'Take your journey with ease and comfort of different level.'
+        details: 'Alternativa de visualização HTML para aplicações dedicadas fora do browsing.'
       },
       {
         icon:`10.png`,
-        title:'Custom Timing',
+        title:'Pug.js',
         alt: 'Dashboard',
-        details: 'Control how fast your notification will display on your screen'
+        details: 'Codificação HTML simplificada com visões e reaproveitamento de códigos'
       },
       {
         icon:`11.png`,
-        title:'Live Visitor Count',
+        title:'Miro',
         alt: 'Dashboard',
-        details: 'Show how many visitors are browing your site in a time'
+        details: 'Ferramenta útil para elaborações com multi-usuários, podendo ser utilizadas em brainstormings e mind mappings'
       },
       {
         icon:`12.png`,
-        title:'Visitor Identification',
+        title:'Microsoft Teams',
         alt: 'Dashboard',
-        details: 'We will show you detailed profiles of every visitor of the site.'
+        details: 'Aplicação de comunicação entre os desenvolvedores, além de ser uma ferramenta de interação'
       },
       {
         icon:`13.png`,
-        title:'Custom Rules',
+        title:'npm',
         alt: 'Dashboard',
-        details: 'Granular control over the notification of your activity.'
+        details: 'Aplicação responsável pelas instalações'
       },
       {
         icon:`14.png`,
-        title:'Mobile Optimized',
+        title:'JIRA',
         alt: 'Dashboard',
-        details: 'Optimize the traffic to bring the best to your project.'
+        details: 'Alternativa ao Trello, uma gestão de atividades estilo Kanbam.'
       },
       {
         icon:`15.png`,
-        title:'Language Translation',
+        title:'Gerrit',
         alt: 'Dashboard',
-        details: 'Translate recent activity notification into any language.'
+        details: 'Alternativa ao GitHub para versionamento de código e/ou descrição.'
       }
     ];
 mixin NewFeatureItem(item) 
@@ -81,11 +81,11 @@ mixin NewFeatureItem(item)
     p.fs-0 #{item.details}
         
 mixin Features
-  +Section#customers
-    h1.text-center.display-5.fw-semi-bold(data-zanim-xs!={delay: 0.3} data-zanim-trigger='scroll')   Proof makes increasing conversion simple
-    p.text-center.fs-0.fs-md-1(data-zanim-xs!={delay: 0.5} data-zanim-trigger='scroll')  Getting a conversion boost didn't used to be this easy. Luckily, you found Proof. Now 
+  +Section#ferramentas
+    h1.text-center.display-5.fw-semi-bold(data-zanim-xs!={delay: 0.3} data-zanim-trigger='scroll') Ferramentas que auxiliam a Gestão de Configuração
+    p.text-center.fs-0.fs-md-1(data-zanim-xs!={delay: 0.5} data-zanim-trigger='scroll')  Com os seguintes ferramentas seremos capazes de acompanhar e monitorar o estado do projeto,
       br.d-none.d-lg-block
-      | you have the tools to let your customer do the selling for you.
+      | facilitando novas tomadas de decisão e verificando aquelas que mais impactaram no processo de desenvolvimento.
     .row.mb-4.mt-6
       +NewFeatureItem(featuresnew[0])
       +NewFeatureItem(featuresnew[1]) 
