@@ -45,8 +45,16 @@ releases
 
 # Compiled HTML files #
 ######################
-*public/assets/css/theme-rtl
-*public/assets/css/theme
-*public/assets/css/user
-*public/assets/js/theme
+public/assets/css/theme-rtl.css
+public/assets/css/theme-rtl.css.map
+public/assets/css/theme-rtl.min.css
+public/assets/css/theme-rtl.min.css.map
+public/assets/css/theme.css
+public/assets/css/theme.css.map
+public/assets/css/theme.min.css
+public/assets/css/theme.min.css.map
+public/assets/css/user-rtl.css.map
+public/assets/css/user.css.map
+public/assets/js/theme.js.map
+public/assets/js/theme.min.js.map
 public/index.html
