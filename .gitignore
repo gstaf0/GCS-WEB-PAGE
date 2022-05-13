@@ -42,3 +42,11 @@ Thumbs.db
 node_modules
 temp
 releases
+
+# Compiled HTML files #
+######################
+*public/assets/css/theme-rtl
+*public/assets/css/theme
+*public/assets/css/user
+*public/assets/js/theme
+public/index.html

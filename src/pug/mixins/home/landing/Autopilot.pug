@@ -3,7 +3,7 @@ append variables
 mixin Autopilot
   section.p-0#docs
     +Background({image: `${CWD}assets/img/illustration/6.png`, attrs: { style: { 'background-position': 'right top', 'background-size': 'contain'} }, className: 'd-none d-lg-block' })
-    .container
+    //.container
       .row.align-items-center
         .col-12.col-lg-7.col-xl-5.text-lg-start.text-center
           h1.fs-3.fw-normal.mt-6 Your finances on autopilot
@@ -14,5 +14,5 @@ mixin Autopilot
             each item in items      
               li.mb-3.text-900
                 span.far.fa-check-circle.text-700.me-2
-                =item 
+                =item //
           
