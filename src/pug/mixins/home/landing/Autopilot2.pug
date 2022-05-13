@@ -2,7 +2,7 @@ append variables
   - var points = ['Specific access/rights by users', 'Physical and virtual Mastercards with adjestable payment limits', 'Dashboards to follow-up on your expenses']
   - var values = ['Unlimited history', 'REad-only access for your accountant', 'Plug-and-play for accounting tools']
 mixin Autopilot2
-  section.py-5
+ // section.py-5
       .container#auto
         .row.align-items-center
           .col-md-6.text-md-start
@@ -18,5 +18,5 @@ mixin Autopilot2
               each value in values      
                 li.mb-3.text-900
                   span.far.fa-check-circle.text-700.me-2
-                  =value 
+                  =value //
           
